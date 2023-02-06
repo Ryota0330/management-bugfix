@@ -28,9 +28,9 @@ public class Employee {
 	/** 電話番号 */
 	private String telephone;
 	/** 給料 */
-	private Integer salary;
+	public Integer salary;
 	/** 特性 */
-	private String characteristics;
+	public String characteristics;
 	/** 扶養人数 */
 	private Integer dependentsCount;
 
