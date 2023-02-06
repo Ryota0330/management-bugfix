@@ -63,6 +63,8 @@ public class EmployeeController {
 	 * @param model モデル
 	 * @return 従業員詳細画面
 	 */
+	
+	//form に入れる？？
 	@RequestMapping("/showDetail")
 	public String showDetail(String id, Model model) {
 		Employee employee = employeeService.showDetail(Integer.parseInt(id));
